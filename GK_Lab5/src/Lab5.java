@@ -73,7 +73,7 @@ class Lab5 extends GLJPanel implements GLEventListener, KeyListener{
         // TODO: Draw the currently selected object, number 1, 2, 3, 4, 5, or 6.
         // (Objects should lie in the cube with x, y, and z coordinates in the
         // range -5 to 5.)
-        if (objectNumber ==1) {             //korkoci¹g
+        if (objectNumber ==1) {             //korkociÂ¹g
 
             Corksrew(gl2,4,12);
 
@@ -135,7 +135,7 @@ class Lab5 extends GLJPanel implements GLEventListener, KeyListener{
 
     public void PiramidBaseOnShape(GL2 gl2,double size){
         gl2.glBegin(gl2.GL_TRIANGLE_FAN);
-        int n = 16;
+        int n = 12;
         gl2.glVertex3f(0,6,0);
         gl2.glVertex3f(1,0,0);
         for ( int i = 0; i<n;i++)
