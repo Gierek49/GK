@@ -128,7 +128,7 @@ class Lab6 extends GLJPanel implements GLEventListener  {
       
       
 
-        PyramidBaseOnCircle(gl2,16,materials[0]);
+        PyramidBaseOnCircle(gl2,12,materials[0]);
     
 
         
